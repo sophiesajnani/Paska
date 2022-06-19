@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>The Paska Project</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+     <!-- navigation bar --> 
+    <br>
+    
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="restaurant.html">Submit a Restaurant</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><img src = "https://cdn.glitch.global/445377db-fdc1-46fb-a77e-694fb442ac66/menu%20icon.png?v=1655528302578" height = "30" width = "30"></span>
+   <div class="header">
+     <h1> <div class="typed-out">
+        About Us  </div>
+     </h1>
+    </div>
+    <center>
+    <div class = "about">
+      <p>
+        "Paska" is a national Ukranian treat used in celebrations, especially Easter. 
+      </p>
+      <img src = "https://cdn.glitch.global/445377db-fdc1-46fb-a77e-694fb442ac66/paska.jpg?v=1655570939994" height = "300" width = "440">
+        <p>
+        As natural disasters and wars break out, local economies suffer. We are here to help. 
+        Paska allows people to donate to restaurants in areas of need, so that they can continue to feed their communities and stay open post-war. 
+        Currently, we are supporting Ukraine but in the future, we hope to help other countries. 
+        Restaurants can submit a form to be featured on our website, and users can choose how much they want to donate. Instead of donating through a third-party, donate directly to the source. 
+      </p>
+      <h2>
+      Be a part of change and witness impact. 
+      </h2>
+    </div>
+    </center>
+  </body>
+</html>
